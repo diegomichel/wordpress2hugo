@@ -22,8 +22,7 @@ rs.each(as: :array) do |row|
   slug = row[2].gsub(/[^0-9a-z ]/i, '').tr(' ', '-').downcase
   post =<<-END.gsub(/^ {6}/, '')
       +++
-      date = "#{row[0]}"
-      #{'draft = true' if row[1] == 'draft'}
+      date = "#{row[0]}"#{"\n      draft = true" if row[1] == 'draft'}
       title = "#{row[2]}"
       +++
       #{post_content}
