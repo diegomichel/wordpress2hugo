@@ -7,17 +7,17 @@
 
 ## Steps
 * Open convert.rb with your favorite editor and edit under section Configuration
-  ```
-  vim convert.rb
-  ```
+```
+            vim convert.rb
+```
 * Execute setup.sh to install the required gems(some may need external libraries.)
-  ```
-  sh setup.sh
-  ```
+```
+            sh setup.sh
+```
 * One time setup.sh ends without errors execute convert.rb
-  ```
-  ruby convert.rb
-  ```
-All your posts will be generated ont he specified directorie and then you can move em to your hugo content/ folder.
+```
+            ruby convert.rb
+```
+All your posts will be generated on the specified directory and then you can move them to your hugo content/ folder.
 
 Best regards.
