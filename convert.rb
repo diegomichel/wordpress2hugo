@@ -30,7 +30,7 @@ rs.each(as: :array) do |row|
   post = <<-END.gsub(/^ {6}/, '')
       +++
       date = "#{row[0].to_date.to_s}"#{"\n      draft = true" if row[1] == 'draft'}
-      title = "#{row[2]}"
+      title = "#{row[2].tr("\"","'")}"
       +++
       #{post_content}
   END
