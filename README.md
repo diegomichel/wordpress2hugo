@@ -1,4 +1,5 @@
-# Script to convert your [wordpress](http://wordpress.org) posts into markdown format to work with (gohugo.io)[http://gohugo.io]
+# Wordpress2Hugo converter
+## Script to convert your [wordpress](http://wordpress.org) posts into markdown format to work with [gohugo.io](http://gohugo.io)
 
 ## You will need:
 * A backup of your wordpress database (only the posts table is required).
